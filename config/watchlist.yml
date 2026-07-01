@@ -12,6 +12,8 @@ chefs:
   - Anthony Bourdain Estate # retrospectives/tributes still tour occasionally
   - David Chang
   - Eyal Shani             # Miznon, HaSalon
+  - Michael Solomonov      # Zahav
+  - Einat Admony           # Shuk cookbook, Balaboosta
   - Rene Redzepi
   - Samin Nosrat
   - Kwame Onwuachi
@@ -44,5 +46,14 @@ speakers_and_misc:
   - Ezra Klein
   - Ken Burns
 
-# Add a `musicians:` or any other category you like - the fetch scripts treat
+musicians:
+  - Idan Raichel
+  - David Broza
+  - Noa                    # Achinoam Nini
+  - Asaf Avidan
+  - Dudu Tassa
+  - Infected Mushroom
+  - Yael Naim
+
+# Add any other category you like - the fetch scripts treat
 # every top-level list under this file as a flat pool of search keywords.
