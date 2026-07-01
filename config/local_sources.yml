@@ -12,16 +12,26 @@
 # HTML selectors are best-effort and WILL break when a site redesigns. That's
 # expected - fetch_local_html.py logs and skips a source on parse failure
 # rather than failing the whole run.
+#
+# Note: several of these sites (SAL, Hugo House, etc.) return 403 from
+# datacenter IPs. The scraper's custom User-Agent may fare better; if not,
+# these will log a fetch failure and skip gracefully.
 
 venues:
-  - name: Town Hall Seattle
-    url: https://townhallseattle.org/events/
+
+  # -----------------------------------------------------------------------
+  # Author talks & speaker series
+  # -----------------------------------------------------------------------
+
+  - name: Seattle Arts & Lectures
+    url: https://lectures.org/events/
     category: talks
     fetch_method: html
     selectors:
-      event: ".event-item, .tribe-events-calendar-list__event"
-      title: ".event-title, .tribe-event-title"
-      date: ".event-date, time"
+      # SAL uses WordPress + The Events Calendar (tribe)
+      event: ".tribe-events-calendar-list__event, .tribe-event, .type-tribe_events"
+      title: ".tribe-event-title, .tribe-events-calendar-list__event-title, h2, h3"
+      date: ".tribe-event-date-start, time, .tribe-events-start-datetime"
       link: "a"
 
   - name: Elliott Bay Book Company
@@ -54,6 +64,28 @@ venues:
       date: ".event-date"
       link: "a"
 
+  - name: Hugo House
+    url: https://hugohouse.org/events/
+    category: authors
+    fetch_method: html
+    selectors:
+      # Hugo House uses WordPress + The Events Calendar (tribe)
+      event: ".tribe-events-calendar-list__event, .tribe-event, .type-tribe_events"
+      title: ".tribe-event-title, .tribe-events-calendar-list__event-title, h2, h3"
+      date: ".tribe-event-date-start, time, .tribe-events-start-datetime"
+      link: "a"
+
+  - name: Book Larder
+    url: https://www.booklarder.com/events
+    category: authors
+    fetch_method: html
+    notes: "Cookbook and food-focused bookstore — good crossover with chef_dinners watchlist"
+    selectors:
+      event: ".event-item, .event, article"
+      title: ".event-title, h2, h3"
+      date: ".event-date, time"
+      link: "a"
+
   - name: Seattle Public Library - Author Events
     url: https://www.spl.org/programs-and-services/books-and-media/author-events
     category: authors
@@ -63,6 +95,75 @@ venues:
       title: ".event-title, h3"
       date: ".event-date"
       link: "a"
+
+  # -----------------------------------------------------------------------
+  # Talks & cultural institutions
+  # -----------------------------------------------------------------------
+
+  - name: Town Hall Seattle
+    url: https://townhallseattle.org/events/
+    category: talks
+    fetch_method: html
+    selectors:
+      event: ".event-item, .tribe-events-calendar-list__event"
+      title: ".event-title, .tribe-event-title"
+      date: ".event-date, time"
+      link: "a"
+
+  - name: MOHAI (Museum of History & Industry)
+    url: https://mohai.org/events/
+    category: talks
+    fetch_method: html
+    selectors:
+      event: ".event"
+      title: ".event-title"
+      date: ".event-date"
+      link: "a"
+
+  - name: Seattle Art Museum
+    url: https://www.seattleartmuseum.org/visit/calendar
+    category: talks
+    fetch_method: html
+    selectors:
+      event: ".event-item, .event-card, article"
+      title: ".event-title, h2, h3"
+      date: ".event-date, time"
+      link: "a"
+
+  - name: Frye Art Museum
+    url: https://fryemuseum.org/events/
+    category: talks
+    fetch_method: html
+    selectors:
+      # Frye uses WordPress
+      event: ".tribe-events-calendar-list__event, .tribe-event, article"
+      title: ".tribe-event-title, h2, h3"
+      date: ".tribe-event-date-start, time"
+      link: "a"
+
+  - name: Pacific Science Center
+    url: https://www.pacificsciencecenter.org/events/
+    category: talks
+    fetch_method: html
+    selectors:
+      event: ".event-item, .event-card, article"
+      title: ".event-title, h2, h3"
+      date: ".event-date, time"
+      link: "a"
+
+  - name: Museum of Pop Culture (MoPOP)
+    url: https://www.mopop.org/events/
+    category: talks
+    fetch_method: html
+    selectors:
+      event: ".event-item, .event-card, article"
+      title: ".event-title, h2, h3"
+      date: ".event-date, time"
+      link: "a"
+
+  # -----------------------------------------------------------------------
+  # Performances (via Ticketmaster)
+  # -----------------------------------------------------------------------
 
   - name: Benaroya Hall
     ticketmaster_venue_id: null # fill in via Discovery API venue search
@@ -84,15 +185,9 @@ venues:
     category: performances
     fetch_method: ticketmaster_venue
 
-  - name: MOHAI (Museum of History & Industry)
-    url: https://mohai.org/events/
-    category: talks
-    fetch_method: html
-    selectors:
-      event: ".event"
-      title: ".event-title"
-      date: ".event-date"
-      link: "a"
+  # -----------------------------------------------------------------------
+  # Chef dinners (manual — Tock/Resy don't expose scrapeable feeds)
+  # -----------------------------------------------------------------------
 
   # Chef dinners in Seattle overwhelmingly run through Tock/Resy reservation
   # pages, which don't expose stable public markup or feeds. Track these by
