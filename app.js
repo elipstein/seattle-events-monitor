@@ -1,6 +1,22 @@
 const DATA_URL = "data/events.json";
 const REFRESH_MS = 5 * 60 * 1000;
 const SOON_DAYS = 14;
+const HIDDEN_KEY = "seattle-events-hidden";
+
+function getHidden() {
+  try { return new Set(JSON.parse(localStorage.getItem(HIDDEN_KEY) || "[]")); }
+  catch { return new Set(); }
+}
+
+function setHidden(set) {
+  localStorage.setItem(HIDDEN_KEY, JSON.stringify([...set]));
+}
+
+function hideEvent(id) {
+  const h = getHidden();
+  h.add(id);
+  setHidden(h);
+}
 
 function formatDate(iso) {
   if (!iso) return "TBD";
@@ -52,8 +68,32 @@ function renderRow(event) {
   badge.className = "badge";
   badge.textContent = badgeText(event);
 
-  row.append(date, titleCell, badge);
+  const dismiss = document.createElement("button");
+  dismiss.className = "dismiss";
+  dismiss.title = "Not interested";
+  dismiss.textContent = "×";
+  dismiss.addEventListener("click", () => {
+    hideEvent(event.id);
+    row.remove();
+    updateHiddenLink();
+  });
+
+  row.append(date, titleCell, badge, dismiss);
   return row;
+}
+
+let _lastData = null;
+
+function updateHiddenLink() {
+  const hidden = getHidden();
+  const link = document.getElementById("show-hidden");
+  if (!link) return;
+  if (hidden.size === 0) {
+    link.hidden = true;
+  } else {
+    link.hidden = false;
+    link.textContent = `show ${hidden.size} hidden`;
+  }
 }
 
 async function loadEvents() {
@@ -62,18 +102,24 @@ async function loadEvents() {
     const resp = await fetch(`${DATA_URL}?t=${Date.now()}`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
+    _lastData = data;
 
     lastUpdated.textContent = `updated ${new Date(data.generated_at).toLocaleString("en-US")}`;
-
-    const local = data.events.filter((e) => e.lane === "local");
-    const big = data.events.filter((e) => e.lane === "big");
-
-    renderLane("rows-local", "empty-local", local);
-    renderLane("rows-big", "empty-big", big);
+    renderAll(data);
   } catch (err) {
     lastUpdated.textContent = "couldn't load data/events.json";
     console.error(err);
   }
+}
+
+function renderAll(data) {
+  const hidden = getHidden();
+  const visible = data.events.filter((e) => !hidden.has(e.id));
+  const local = visible.filter((e) => e.lane === "local");
+  const big = visible.filter((e) => e.lane === "big");
+  renderLane("rows-local", "empty-local", local);
+  renderLane("rows-big", "empty-big", big);
+  updateHiddenLink();
 }
 
 function renderLane(rowsId, emptyId, events) {
@@ -89,6 +135,11 @@ function renderLane(rowsId, emptyId, events) {
     container.appendChild(renderRow(event));
   }
 }
+
+document.getElementById("show-hidden").addEventListener("click", () => {
+  setHidden(new Set());
+  if (_lastData) renderAll(_lastData);
+});
 
 loadEvents();
 setInterval(loadEvents, REFRESH_MS);
