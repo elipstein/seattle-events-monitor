@@ -1,0 +1,139 @@
+:root {
+  --bg: #0b0e0c;
+  --panel: #111512;
+  --amber: #ffb000;
+  --amber-dim: #96700a;
+  --green: #3ddc84;
+  --text: #d8e0da;
+  --text-dim: #6f7a73;
+  --border: #232922;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Courier New", "Space Mono", monospace;
+  min-height: 100vh;
+}
+
+.board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 2px solid var(--amber-dim);
+}
+
+.board-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  color: var(--amber);
+  text-shadow: 0 0 8px rgba(255, 176, 0, 0.35);
+}
+
+.board-meta {
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.board-meta a {
+  color: var(--green);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--green);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+}
+
+@media (max-width: 800px) {
+  .board { grid-template-columns: 1fr; }
+}
+
+.lane {
+  background: var(--panel);
+  padding: 1rem 1.25rem 2rem;
+}
+
+.lane h2 {
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  color: var(--amber);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin: 0 0 0.75rem;
+}
+
+.lane-sub {
+  color: var(--text-dim);
+  font-weight: normal;
+  font-size: 0.85em;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr auto;
+  gap: 0.75rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+  font-size: 0.92rem;
+}
+
+.row.soon {
+  color: var(--green);
+}
+
+.row .date {
+  color: inherit;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.row .title-cell a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.row .title-cell a:hover {
+  text-decoration: underline;
+}
+
+.row .venue {
+  display: block;
+  color: var(--text-dim);
+  font-size: 0.82em;
+}
+
+.row .badge {
+  font-size: 0.7rem;
+  border: 1px solid var(--amber-dim);
+  color: var(--amber);
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+  white-space: nowrap;
+  align-self: center;
+}
+
+.empty-state {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  padding-top: 1rem;
+}
+
+.board-footer {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  padding: 1.5rem;
+}
