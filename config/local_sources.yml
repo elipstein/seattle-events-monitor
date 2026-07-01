@@ -1,0 +1,109 @@
+# "In Your Backyard" lane: Seattle-area sources, pulled broadly (no filtering
+# by watchlist - anything these sources list is fair game for the board).
+#
+# fetch_method:
+#   ticketmaster_venue - looked up via Ticketmaster's venue search, no scraping needed
+#   html               - scripts/fetch_local_html.py scrapes the events page with a
+#                         per-site CSS selector config below
+#   manual             - no reliable feed/markup (common for Tock/Resy-hosted chef
+#                         dinners); listed here as a reminder to check by hand,
+#                         not fetched automatically
+#
+# HTML selectors are best-effort and WILL break when a site redesigns. That's
+# expected - fetch_local_html.py logs and skips a source on parse failure
+# rather than failing the whole run.
+
+venues:
+  - name: Town Hall Seattle
+    url: https://townhallseattle.org/events/
+    category: talks
+    fetch_method: html
+    selectors:
+      event: ".event-item, .tribe-events-calendar-list__event"
+      title: ".event-title, .tribe-event-title"
+      date: ".event-date, time"
+      link: "a"
+
+  - name: Elliott Bay Book Company
+    url: https://www.elliottbaybook.com/events
+    category: authors
+    fetch_method: html
+    selectors:
+      event: ".event, .views-row"
+      title: ".event-title, h3"
+      date: ".event-date, .date-display-single"
+      link: "a"
+
+  - name: Third Place Books (Lake Forest Park / Ravenna / Seward Park)
+    url: https://www.thirdplacebooks.com/events
+    category: authors
+    fetch_method: html
+    selectors:
+      event: ".event, .views-row"
+      title: ".event-title, h3"
+      date: ".event-date"
+      link: "a"
+
+  - name: University Book Store
+    url: https://www.ubookstore.com/pages/events
+    category: authors
+    fetch_method: html
+    selectors:
+      event: ".event-item"
+      title: ".event-title"
+      date: ".event-date"
+      link: "a"
+
+  - name: Seattle Public Library - Author Events
+    url: https://www.spl.org/programs-and-services/books-and-media/author-events
+    category: authors
+    fetch_method: html
+    selectors:
+      event: ".event-item, .views-row"
+      title: ".event-title, h3"
+      date: ".event-date"
+      link: "a"
+
+  - name: Benaroya Hall
+    ticketmaster_venue_id: null # fill in via Discovery API venue search
+    category: performances
+    fetch_method: ticketmaster_venue
+
+  - name: The Paramount Theatre
+    ticketmaster_venue_id: null
+    category: performances
+    fetch_method: ticketmaster_venue
+
+  - name: The Moore Theatre
+    ticketmaster_venue_id: null
+    category: performances
+    fetch_method: ticketmaster_venue
+
+  - name: Neptune Theatre
+    ticketmaster_venue_id: null
+    category: performances
+    fetch_method: ticketmaster_venue
+
+  - name: MOHAI (Museum of History & Industry)
+    url: https://mohai.org/events/
+    category: talks
+    fetch_method: html
+    selectors:
+      event: ".event"
+      title: ".event-title"
+      date: ".event-date"
+      link: "a"
+
+  # Chef dinners in Seattle overwhelmingly run through Tock/Resy reservation
+  # pages, which don't expose stable public markup or feeds. Track these by
+  # hand for now - check periodically, add findings straight to data as
+  # "manual" entries (see merge_and_classify.py `manual_events` support).
+  - name: Canlis pop-up dinners / chef collaborations
+    url: https://canlis.com/
+    category: chef_dinners
+    fetch_method: manual
+
+  - name: James Beard Foundation - Taste America / touring dinners
+    url: https://www.jamesbeard.org/events
+    category: chef_dinners
+    fetch_method: manual

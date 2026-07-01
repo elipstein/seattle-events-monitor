@@ -1,0 +1,44 @@
+# "Worth the Flight" lane: people/acts to search for by name in every region
+# listed in regions.yml, via Ticketmaster/SeatGeek keyword search.
+#
+# This list *is* the product. The scrapers are generic - this is the part
+# that has to reflect actual taste. Add/remove freely. Each entry is searched
+# as a keyword, so use the name as it'd appear in a ticketing listing.
+#
+# category is just used for badge styling on the board, doesn't affect matching.
+
+chefs:
+  - José Andrés
+  - Anthony Bourdain Estate # retrospectives/tributes still tour occasionally
+  - David Chang
+  - Rene Redzepi
+  - Samin Nosrat
+  - Kwame Onwuachi
+  - Christina Tosi
+
+authors:
+  - Barack Obama
+  - Michelle Obama
+  - Malcolm Gladwell
+  - Ta-Nehisi Coates
+  - Colson Whitehead
+  - Brene Brown
+  - Anthony Doerr
+  - Patrick Radden Keefe
+  - Ann Patchett
+  - George Saunders
+
+comedians:
+  - John Mulaney
+  - Hasan Minhaj
+  - Bo Burnham
+  - Nate Bargatze
+
+speakers_and_misc:
+  - Neil deGrasse Tyson
+  - Anderson Cooper
+  - Ezra Klein
+  - Ken Burns
+
+# Add a `musicians:` or any other category you like - the fetch scripts treat
+# every top-level list under this file as a flat pool of search keywords.

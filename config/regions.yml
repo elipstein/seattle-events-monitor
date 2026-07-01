@@ -1,0 +1,132 @@
+# "Worth the Flight" lane: nearby metros to search, and how far is "close enough".
+#
+# threshold_hours is the default cutoff used by scripts/fetch_ticketmaster.py
+# and scripts/fetch_seatgeek.py to decide whether a region's events get
+# pulled into the big-lane sweep. Regions past the threshold are kept in this
+# file (commented as "stretch") in case you want to bump the cutoff later.
+
+threshold_hours: 3.5
+
+regions:
+  - name: Portland, OR
+    market_code: OR
+    city: Portland
+    state: OR
+    airport: PDX
+    flight_hours: 1.0
+    drive_hours: 3.0
+    preferred_mode: either
+
+  - name: Vancouver, BC
+    market_code: BC
+    city: Vancouver
+    state: BC
+    country: CA
+    airport: YVR
+    flight_hours: 1.0
+    drive_hours: 2.5
+    preferred_mode: either
+
+  - name: Spokane, WA
+    market_code: WA
+    city: Spokane
+    state: WA
+    airport: GEG
+    flight_hours: 1.0
+    drive_hours: 4.5
+    preferred_mode: flight
+
+  - name: Boise, ID
+    city: Boise
+    state: ID
+    airport: BOI
+    flight_hours: 1.5
+    preferred_mode: flight
+
+  - name: San Francisco Bay Area
+    city: San Francisco
+    state: CA
+    airport: SFO
+    flight_hours: 2.0
+    preferred_mode: flight
+
+  - name: Sacramento, CA
+    city: Sacramento
+    state: CA
+    airport: SMF
+    flight_hours: 2.0
+    preferred_mode: flight
+
+  - name: Salt Lake City, UT
+    city: Salt Lake City
+    state: UT
+    airport: SLC
+    flight_hours: 2.0
+    preferred_mode: flight
+
+  - name: Los Angeles, CA
+    city: Los Angeles
+    state: CA
+    airport: LAX
+    flight_hours: 2.5
+    preferred_mode: flight
+
+  - name: San Diego, CA
+    city: San Diego
+    state: CA
+    airport: SAN
+    flight_hours: 2.75
+    preferred_mode: flight
+
+  - name: Denver, CO
+    city: Denver
+    state: CO
+    airport: DEN
+    flight_hours: 2.5
+    preferred_mode: flight
+
+  - name: Las Vegas, NV
+    city: Las Vegas
+    state: NV
+    airport: LAS
+    flight_hours: 2.5
+    preferred_mode: flight
+
+  - name: Phoenix, AZ
+    city: Phoenix
+    state: AZ
+    airport: PHX
+    flight_hours: 3.0
+    preferred_mode: flight
+
+  # Past the default 3.5h threshold - excluded unless you raise threshold_hours.
+  - name: Chicago, IL
+    city: Chicago
+    state: IL
+    airport: ORD
+    flight_hours: 4.0
+    preferred_mode: flight
+    stretch: true
+
+  - name: Minneapolis, MN
+    city: Minneapolis
+    state: MN
+    airport: MSP
+    flight_hours: 3.5
+    preferred_mode: flight
+    stretch: true
+
+# Minimum venue capacity for the "big-venue sweep" (events at large venues in
+# the regions above get pulled in regardless of whether the act is on the
+# watchlist). Ticketmaster doesn't expose capacity directly, so this is
+# implemented as a named-venue allowlist per market - fill in as you notice
+# venues worth always-including.
+big_venue_allowlist:
+  - Chase Center (San Francisco, CA)
+  - Oracle Park (San Francisco, CA)
+  - Crypto.com Arena (Los Angeles, CA)
+  - Hollywood Bowl (Los Angeles, CA)
+  - Moda Center (Portland, OR)
+  - Rogers Arena (Vancouver, BC)
+  - Ball Arena (Denver, CO)
+  - T-Mobile Arena (Las Vegas, NV)
