@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T16:11:41.824753+00:00",
+  "generated_at": "2026-07-07T15:37:37.350775+00:00",
   "count": 6,
   "events": [
     {
-      "id": "html:Pacific Science Center:0:Live at the Laser Dome: KEXP DJ in Resid",
-      "title": "Live at the Laser Dome: KEXP DJ in Residence",
-      "url": "https://pacificsciencecenter.org/events/pacsci-kexp-laser/",
+      "id": "html:Pacific Science Center:0:SIGNAL: Makes Me Human presents DJ Satos",
+      "title": "SIGNAL: Makes Me Human presents DJ Satoshi Tomiie",
+      "url": "https://pacificsciencecenter.org/events/signal-at-pacsci/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
@@ -17,9 +17,9 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:SIGNAL: Makes Me Human presents DJ Satos",
-      "title": "SIGNAL: Makes Me Human presents DJ Satoshi Tomiie",
-      "url": "https://pacificsciencecenter.org/events/signal-at-pacsci/",
+      "id": "html:Pacific Science Center:1:Live at the Laser Dome: KEXP DJ in Resid",
+      "title": "Live at the Laser Dome: KEXP DJ in Residence",
+      "url": "https://pacificsciencecenter.org/events/pacsci-kexp-laser/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
