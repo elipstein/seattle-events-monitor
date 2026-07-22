@@ -1,23 +1,9 @@
 {
-  "generated_at": "2026-07-21T14:51:50.455164+00:00",
-  "count": 6,
+  "generated_at": "2026-07-22T14:50:51.041762+00:00",
+  "count": 5,
   "events": [
     {
-      "id": "html:Pacific Science Center:0:SIGNAL: Makes Me Human presents DJ Satos",
-      "title": "SIGNAL: Makes Me Human presents DJ Satoshi Tomiie",
-      "url": "https://pacificsciencecenter.org/events/signal-at-pacsci/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:1:Live at the Laser Dome: KEXP DJ in Resid",
+      "id": "html:Pacific Science Center:0:Live at the Laser Dome: KEXP DJ in Resid",
       "title": "Live at the Laser Dome: KEXP DJ in Residence",
       "url": "https://pacificsciencecenter.org/events/pacsci-kexp-laser/",
       "venue": "Pacific Science Center",
@@ -31,7 +17,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Corporate Member Weekend",
+      "id": "html:Pacific Science Center:1:Corporate Member Weekend",
       "title": "Corporate Member Weekend",
       "url": "https://pacificsciencecenter.org/events/corporate-member-weekend/",
       "venue": "Pacific Science Center",
@@ -45,7 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:SIGNAL: Saz\u00f3n Seattle",
+      "id": "html:Pacific Science Center:2:SIGNAL: Saz\u00f3n Seattle",
       "title": "SIGNAL: Saz\u00f3n Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-sazon/",
       "venue": "Pacific Science Center",
@@ -59,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:SIGNAL: Modular on the Spot: Seattle",
+      "id": "html:Pacific Science Center:3:SIGNAL: Modular on the Spot: Seattle",
       "title": "SIGNAL: Modular on the Spot: Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-modular/",
       "venue": "Pacific Science Center",
@@ -73,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:Brewology",
+      "id": "html:Pacific Science Center:4:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
