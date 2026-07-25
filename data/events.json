@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T14:29:56.842341+00:00",
-  "count": 5,
+  "generated_at": "2026-07-25T14:23:35.915872+00:00",
+  "count": 6,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Live at the Laser Dome: KEXP DJ in Resid",
@@ -45,7 +45,21 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:SIGNAL: Modular on the Spot: Seattle",
+      "id": "html:Pacific Science Center:3:One Night Only Laser: Ghost & Tool",
+      "title": "One Night Only Laser: Ghost & Tool",
+      "url": "https://pacificsciencecenter.org/events/one-night-only/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:4:SIGNAL: Modular on the Spot: Seattle",
       "title": "SIGNAL: Modular on the Spot: Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-modular/",
       "venue": "Pacific Science Center",
@@ -59,7 +73,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Brewology",
+      "id": "html:Pacific Science Center:5:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
