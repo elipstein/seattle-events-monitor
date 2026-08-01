@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T15:11:19.640545+00:00",
-  "count": 6,
+  "generated_at": "2026-08-01T14:18:11.025308+00:00",
+  "count": 7,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Live at the Laser Dome: KEXP DJ in Resid",
@@ -73,7 +73,21 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:Brewology",
+      "id": "html:Pacific Science Center:5:Science After Dark: Fungi Fest",
+      "title": "Science After Dark: Fungi Fest",
+      "url": "https://pacificsciencecenter.org/events/science-after-dark/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:6:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
