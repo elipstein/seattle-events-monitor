@@ -1,23 +1,9 @@
 {
-  "generated_at": "2026-08-10T14:08:43.446180+00:00",
-  "count": 6,
+  "generated_at": "2026-08-11T14:08:46.436940+00:00",
+  "count": 5,
   "events": [
     {
-      "id": "html:Pacific Science Center:0:Corporate Member Weekend",
-      "title": "Corporate Member Weekend",
-      "url": "https://pacificsciencecenter.org/events/corporate-member-weekend/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:1:SIGNAL: Saz\u00f3n Seattle",
+      "id": "html:Pacific Science Center:0:SIGNAL: Saz\u00f3n Seattle",
       "title": "SIGNAL: Saz\u00f3n Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-sazon/",
       "venue": "Pacific Science Center",
@@ -31,7 +17,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:One Night Only Laser: Ghost & Tool",
+      "id": "html:Pacific Science Center:1:One Night Only Laser: Ghost & Tool",
       "title": "One Night Only Laser: Ghost & Tool",
       "url": "https://pacificsciencecenter.org/events/one-night-only/",
       "venue": "Pacific Science Center",
@@ -45,7 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:SIGNAL: Modular on the Spot: Seattle",
+      "id": "html:Pacific Science Center:2:SIGNAL: Modular on the Spot: Seattle",
       "title": "SIGNAL: Modular on the Spot: Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-modular/",
       "venue": "Pacific Science Center",
@@ -59,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:3:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -73,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:Brewology",
+      "id": "html:Pacific Science Center:4:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
