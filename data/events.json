@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T13:34:26.646465+00:00",
-  "count": 5,
+  "generated_at": "2026-08-20T13:36:15.649027+00:00",
+  "count": 6,
   "events": [
     {
       "id": "html:Pacific Science Center:0:One Night Only Laser: Ghost & Tool",
@@ -17,7 +17,21 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:SIGNAL: Modular on the Spot: Seattle",
+      "id": "html:Pacific Science Center:1:60 Minutes in Space",
+      "title": "60 Minutes in Space",
+      "url": "https://pacificsciencecenter.org/events/60-minutes-in-space/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:2:SIGNAL: Modular on the Spot: Seattle",
       "title": "SIGNAL: Modular on the Spot: Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-modular/",
       "venue": "Pacific Science Center",
@@ -31,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:3:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -45,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Brewology",
+      "id": "html:Pacific Science Center:4:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
@@ -59,7 +73,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:5:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
