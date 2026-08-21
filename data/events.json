@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T13:36:15.649027+00:00",
+  "generated_at": "2026-08-21T13:35:08.347501+00:00",
   "count": 6,
   "events": [
     {
-      "id": "html:Pacific Science Center:0:One Night Only Laser: Ghost & Tool",
-      "title": "One Night Only Laser: Ghost & Tool",
-      "url": "https://pacificsciencecenter.org/events/one-night-only/",
+      "id": "html:Pacific Science Center:0:60 Minutes in Space",
+      "title": "60 Minutes in Space",
+      "url": "https://pacificsciencecenter.org/events/60-minutes-in-space/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
@@ -17,9 +17,9 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:60 Minutes in Space",
-      "title": "60 Minutes in Space",
-      "url": "https://pacificsciencecenter.org/events/60-minutes-in-space/",
+      "id": "html:Pacific Science Center:1:Farewell Artemis",
+      "title": "Farewell Artemis",
+      "url": "https://pacificsciencecenter.org/events/farewell-artemis/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
