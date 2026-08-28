@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-27T22:39:42.504326+00:00",
+  "generated_at": "2026-08-28T22:44:50.580272+00:00",
   "count": 8,
   "events": [
     {
-      "id": "html:Pacific Science Center:0:60 Minutes in Space",
-      "title": "60 Minutes in Space",
-      "url": "https://pacificsciencecenter.org/events/60-minutes-in-space/",
+      "id": "html:Pacific Science Center:0:Live at the Laser Dome: KEXP DJ in Resid",
+      "title": "Live at the Laser Dome: KEXP DJ in Residence",
+      "url": "https://pacificsciencecenter.org/events/pacsci-kexp-laser/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
@@ -17,9 +17,9 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:Live at the Laser Dome: KEXP DJ in Resid",
-      "title": "Live at the Laser Dome: KEXP DJ in Residence",
-      "url": "https://pacificsciencecenter.org/events/pacsci-kexp-laser/",
+      "id": "html:Pacific Science Center:1:Laser Level Up",
+      "title": "Laser Level Up",
+      "url": "https://pacificsciencecenter.org/events/laser-pax-west/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
@@ -45,8 +45,8 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Blood Drive",
-      "title": "Blood Drive",
+      "id": "html:Pacific Science Center:3:Seattle Center Blood Drive",
+      "title": "Seattle Center Blood Drive",
       "url": "https://pacificsciencecenter.org/events/blood-drive/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
