@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T17:00:11.848709+00:00",
-  "count": 8,
+  "generated_at": "2026-09-02T16:53:26.812368+00:00",
+  "count": 7,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Live at the Laser Dome: KEXP DJ in Resid",
@@ -31,21 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Farewell Artemis (CANCELLED)",
-      "title": "Farewell Artemis (CANCELLED)",
-      "url": "https://pacificsciencecenter.org/events/farewell-artemis/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:3:Seattle Center Blood Drive",
+      "id": "html:Pacific Science Center:2:Seattle Center Blood Drive",
       "title": "Seattle Center Blood Drive",
       "url": "https://pacificsciencecenter.org/events/blood-drive/",
       "venue": "Pacific Science Center",
@@ -59,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:SIGNAL: Modular on the Spot: Seattle",
+      "id": "html:Pacific Science Center:3:SIGNAL: Modular on the Spot: Seattle",
       "title": "SIGNAL: Modular on the Spot: Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-modular/",
       "venue": "Pacific Science Center",
@@ -73,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:4:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -87,7 +73,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:6:Brewology",
+      "id": "html:Pacific Science Center:5:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
@@ -101,7 +87,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:7:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:6:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
