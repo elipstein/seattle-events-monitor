@@ -1,23 +1,9 @@
 {
-  "generated_at": "2026-09-03T16:42:59.425072+00:00",
+  "generated_at": "2026-09-04T16:37:29.071281+00:00",
   "count": 7,
   "events": [
     {
-      "id": "html:Pacific Science Center:0:Live at the Laser Dome: KEXP DJ in Resid",
-      "title": "Live at the Laser Dome: KEXP DJ in Residence",
-      "url": "https://pacificsciencecenter.org/events/pacsci-kexp-laser/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:1:Laser Level Up",
+      "id": "html:Pacific Science Center:0:Laser Level Up",
       "title": "Laser Level Up",
       "url": "https://pacificsciencecenter.org/events/laser-pax-west/",
       "venue": "Pacific Science Center",
@@ -31,7 +17,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Seattle Center Blood Drive",
+      "id": "html:Pacific Science Center:1:Seattle Center Blood Drive",
       "title": "Seattle Center Blood Drive",
       "url": "https://pacificsciencecenter.org/events/blood-drive/",
       "venue": "Pacific Science Center",
@@ -45,9 +31,23 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:SIGNAL: Modular on the Spot: Seattle",
+      "id": "html:Pacific Science Center:2:SIGNAL: Modular on the Spot: Seattle",
       "title": "SIGNAL: Modular on the Spot: Seattle",
       "url": "https://pacificsciencecenter.org/events/signal-modular/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:3:Member Morning: Mysteries From The Deep:",
+      "title": "Member Morning: Mysteries From The Deep: Exploring Underwater Archaeology",
+      "url": "https://pacificsciencecenter.org/events/members-mysteries-deep/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
