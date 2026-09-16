@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T17:19:58.476520+00:00",
-  "count": 4,
+  "generated_at": "2026-09-16T17:19:01.577532+00:00",
+  "count": 5,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Member Morning: Mysteries From The Deep:",
@@ -17,7 +17,21 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:1:Sensory-Friendly Hours",
+      "title": "Sensory-Friendly Hours",
+      "url": "https://pacificsciencecenter.org/events/sensory-hours/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:2:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -31,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Brewology",
+      "id": "html:Pacific Science Center:3:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
@@ -45,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:4:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
