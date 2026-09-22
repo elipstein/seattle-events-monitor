@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T18:20:33.804242+00:00",
-  "count": 5,
+  "generated_at": "2026-09-22T17:22:10.174155+00:00",
+  "count": 7,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Member Morning: Mysteries From The Deep:",
@@ -31,7 +31,35 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:2:Science & a Movie: Little Shop of Horror",
+      "title": "Science & a Movie: Little Shop of Horrors",
+      "url": "https://pacificsciencecenter.org/events/saam/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:3:Laser One Night Only: Noah Kahan & Lorde",
+      "title": "Laser One Night Only: Noah Kahan & Lorde",
+      "url": "https://pacificsciencecenter.org/events/laser-one-night/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:4:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -45,7 +73,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Brewology",
+      "id": "html:Pacific Science Center:5:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
@@ -59,7 +87,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:6:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
