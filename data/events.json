@@ -1,23 +1,9 @@
 {
-  "generated_at": "2026-10-03T16:48:55.822120+00:00",
-  "count": 9,
+  "generated_at": "2026-10-04T17:06:58.411716+00:00",
+  "count": 8,
   "events": [
     {
-      "id": "html:Pacific Science Center:0:Member Morning: Mysteries From The Deep:",
-      "title": "Member Morning: Mysteries From The Deep: Exploring Underwater Archaeology",
-      "url": "https://pacificsciencecenter.org/events/members-mysteries-deep/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:1:FRACTURE! Matheatre Haunted House",
+      "id": "html:Pacific Science Center:0:FRACTURE! Matheatre Haunted House",
       "title": "FRACTURE! Matheatre Haunted House",
       "url": "https://pacificsciencecenter.org/events/fracture/",
       "venue": "Pacific Science Center",
@@ -31,7 +17,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Sensory-Friendly Hours",
+      "id": "html:Pacific Science Center:1:Sensory-Friendly Hours",
       "title": "Sensory-Friendly Hours",
       "url": "https://pacificsciencecenter.org/events/sensory-hours/",
       "venue": "Pacific Science Center",
@@ -45,7 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Science & a Movie: Little Shop of Horror",
+      "id": "html:Pacific Science Center:2:Science & a Movie: Little Shop of Horror",
       "title": "Science & a Movie: Little Shop of Horrors",
       "url": "https://pacificsciencecenter.org/events/saam/",
       "venue": "Pacific Science Center",
@@ -59,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Laser One Night Only: Noah Kahan & Lorde",
+      "id": "html:Pacific Science Center:3:Laser One Night Only: Noah Kahan & Lorde",
       "title": "Laser One Night Only: Noah Kahan & Lorde",
       "url": "https://pacificsciencecenter.org/events/laser-one-night/",
       "venue": "Pacific Science Center",
@@ -73,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:4:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -87,7 +73,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:6:Igniter Evening: Mysteries from the Deep",
+      "id": "html:Pacific Science Center:5:Igniter Evening: Mysteries from the Deep",
       "title": "Igniter Evening: Mysteries from the Deep",
       "url": "https://pacificsciencecenter.org/events/igniter-mysteries-event/",
       "venue": "Pacific Science Center",
@@ -101,7 +87,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:7:Brewology",
+      "id": "html:Pacific Science Center:6:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
@@ -115,7 +101,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:8:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:7:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
