@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T17:42:16.900236+00:00",
-  "count": 8,
+  "generated_at": "2026-10-22T17:40:37.426215+00:00",
+  "count": 7,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Call for Vendors: The Gift Lab",
@@ -31,21 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Science & a Movie: Little Shop of Horror",
-      "title": "Science & a Movie: Little Shop of Horrors",
-      "url": "https://pacificsciencecenter.org/events/saam/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:3:Laser One Night Only: Noah Kahan & Lorde",
+      "id": "html:Pacific Science Center:2:Laser One Night Only: Noah Kahan & Lorde",
       "title": "Laser One Night Only: Noah Kahan & Lorde",
       "url": "https://pacificsciencecenter.org/events/laser-one-night/",
       "venue": "Pacific Science Center",
@@ -59,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:3:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -73,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:Igniter Evening: Mysteries from the Deep",
+      "id": "html:Pacific Science Center:4:Igniter Evening: Mysteries from the Deep",
       "title": "Igniter Evening: Mysteries from the Deep",
       "url": "https://pacificsciencecenter.org/events/igniter-mysteries-event/",
       "venue": "Pacific Science Center",
@@ -87,7 +73,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:6:Brewology",
+      "id": "html:Pacific Science Center:5:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
       "venue": "Pacific Science Center",
@@ -101,7 +87,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:7:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:6:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
