@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:53:47.490940+00:00",
+  "generated_at": "2026-10-27T18:23:46.603395+00:00",
   "count": 7,
   "events": [
     {
@@ -17,21 +17,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:FRACTURE! Matheatre Haunted House",
-      "title": "FRACTURE! Matheatre Haunted House",
-      "url": "https://pacificsciencecenter.org/events/fracture/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:2:Laser One Night Only: Noah Kahan & Lorde",
+      "id": "html:Pacific Science Center:1:Laser One Night Only: Noah Kahan & Lorde",
       "title": "Laser One Night Only: Noah Kahan & Lorde",
       "url": "https://pacificsciencecenter.org/events/laser-one-night/",
       "venue": "Pacific Science Center",
@@ -45,7 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:2:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -59,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Igniter Evening: Mysteries from the Deep",
+      "id": "html:Pacific Science Center:3:Igniter Evening: Mysteries from the Deep",
       "title": "Igniter Evening: Mysteries from the Deep",
       "url": "https://pacificsciencecenter.org/events/igniter-mysteries-event/",
       "venue": "Pacific Science Center",
@@ -73,9 +59,23 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:Brewology",
+      "id": "html:Pacific Science Center:4:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:5:Science After Dark: The Gift Lab",
+      "title": "Science After Dark: The Gift Lab",
+      "url": "https://pacificsciencecenter.org/events/giftlab/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
