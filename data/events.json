@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:32:10.640864+00:00",
+  "generated_at": "2026-10-29T18:41:00.242766+00:00",
   "count": 7,
   "events": [
     {
@@ -17,21 +17,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:Laser One Night Only: Noah Kahan & Lorde",
-      "title": "Laser One Night Only: Noah Kahan & Lorde",
-      "url": "https://pacificsciencecenter.org/events/laser-one-night/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:2:Science After Dark: Fungi Fest",
+      "id": "html:Pacific Science Center:1:Science After Dark: Fungi Fest",
       "title": "Science After Dark: Fungi Fest",
       "url": "https://pacificsciencecenter.org/events/science-after-dark/",
       "venue": "Pacific Science Center",
@@ -45,7 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Igniter Evening: Mysteries from the Deep",
+      "id": "html:Pacific Science Center:2:Igniter Evening: Mysteries from the Deep",
       "title": "Igniter Evening: Mysteries from the Deep",
       "url": "https://pacificsciencecenter.org/events/igniter-mysteries-event/",
       "venue": "Pacific Science Center",
@@ -59,9 +45,23 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Brewology",
+      "id": "html:Pacific Science Center:3:Brewology",
       "title": "Brewology",
       "url": "https://pacificsciencecenter.org/events/brewology/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:4:Igniter Evening: Flutter & Flourish",
+      "title": "Igniter Evening: Flutter & Flourish",
+      "url": "https://pacificsciencecenter.org/events/igniter-evening-flutter-flourish/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
