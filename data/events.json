@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T19:52:09.350820+00:00",
-  "count": 5,
+  "generated_at": "2026-11-04T20:06:03.508309+00:00",
+  "count": 6,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Igniter Evening: Mysteries from the Deep",
@@ -31,7 +31,21 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:2:Igniter Evening: Flutter & Flourish",
+      "id": "html:Pacific Science Center:2:Corporate Member Weekend",
+      "title": "Corporate Member Weekend",
+      "url": "https://pacificsciencecenter.org/events/corporate-member-weekend/",
+      "venue": "Pacific Science Center",
+      "city": "Seattle",
+      "state": "WA",
+      "start": null,
+      "lane": "local",
+      "category": "talks",
+      "source": "html:Pacific Science Center",
+      "matched_watchlist_name": null,
+      "flight_hours": null
+    },
+    {
+      "id": "html:Pacific Science Center:3:Igniter Evening: Flutter & Flourish",
       "title": "Igniter Evening: Flutter & Flourish",
       "url": "https://pacificsciencecenter.org/events/igniter-evening-flutter-flourish/",
       "venue": "Pacific Science Center",
@@ -45,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Science After Dark: The Gift Lab",
+      "id": "html:Pacific Science Center:4:Science After Dark: The Gift Lab",
       "title": "Science After Dark: The Gift Lab",
       "url": "https://pacificsciencecenter.org/events/giftlab/",
       "venue": "Pacific Science Center",
@@ -59,7 +73,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:5:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
