@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:23:58.341743+00:00",
+  "generated_at": "2026-11-18T20:56:20.184582+00:00",
   "count": 7,
   "events": [
     {
@@ -45,9 +45,9 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Corporate Member Weekend",
-      "title": "Corporate Member Weekend",
-      "url": "https://pacificsciencecenter.org/events/corporate-member-weekend/",
+      "id": "html:Pacific Science Center:3:Igniter Evening: Flutter & Flourish",
+      "title": "Igniter Evening: Flutter & Flourish",
+      "url": "https://pacificsciencecenter.org/events/igniter-evening-flutter-flourish/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
@@ -59,9 +59,9 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Igniter Evening: Flutter & Flourish",
-      "title": "Igniter Evening: Flutter & Flourish",
-      "url": "https://pacificsciencecenter.org/events/igniter-evening-flutter-flourish/",
+      "id": "html:Pacific Science Center:4:Corporate Member Weekend",
+      "title": "Corporate Member Weekend",
+      "url": "https://pacificsciencecenter.org/events/corporate-member-weekend/",
       "venue": "Pacific Science Center",
       "city": "Seattle",
       "state": "WA",
