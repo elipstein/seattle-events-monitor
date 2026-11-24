@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T19:59:44.238631+00:00",
-  "count": 6,
+  "generated_at": "2026-11-24T00:25:51.491014+00:00",
+  "count": 5,
   "events": [
     {
       "id": "html:Pacific Science Center:0:Sensory-Friendly Hours",
@@ -17,21 +17,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:1:Brewology",
-      "title": "Brewology",
-      "url": "https://pacificsciencecenter.org/events/brewology/",
-      "venue": "Pacific Science Center",
-      "city": "Seattle",
-      "state": "WA",
-      "start": null,
-      "lane": "local",
-      "category": "talks",
-      "source": "html:Pacific Science Center",
-      "matched_watchlist_name": null,
-      "flight_hours": null
-    },
-    {
-      "id": "html:Pacific Science Center:2:Igniter Evening: Flutter & Flourish",
+      "id": "html:Pacific Science Center:1:Igniter Evening: Flutter & Flourish",
       "title": "Igniter Evening: Flutter & Flourish",
       "url": "https://pacificsciencecenter.org/events/igniter-evening-flutter-flourish/",
       "venue": "Pacific Science Center",
@@ -45,7 +31,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:3:Corporate Member Weekend",
+      "id": "html:Pacific Science Center:2:Corporate Member Weekend",
       "title": "Corporate Member Weekend",
       "url": "https://pacificsciencecenter.org/events/corporate-member-weekend/",
       "venue": "Pacific Science Center",
@@ -59,7 +45,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:4:Science After Dark: The Gift Lab",
+      "id": "html:Pacific Science Center:3:Science After Dark: The Gift Lab",
       "title": "Science After Dark: The Gift Lab",
       "url": "https://pacificsciencecenter.org/events/giftlab/",
       "venue": "Pacific Science Center",
@@ -73,7 +59,7 @@
       "flight_hours": null
     },
     {
-      "id": "html:Pacific Science Center:5:PacSci Ignite Luncheon",
+      "id": "html:Pacific Science Center:4:PacSci Ignite Luncheon",
       "title": "PacSci Ignite Luncheon",
       "url": "https://pacificsciencecenter.org/events/luncheon/",
       "venue": "Pacific Science Center",
